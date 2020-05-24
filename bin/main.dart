@@ -1,7 +1,5 @@
-void main(List<String> arguments) {
-  print(camelCase("create new file"));
-}
+import 'package:unit_test_example/strings.dart';
 
-String camelCase(String input) {
-  return "createNewFile";
+void main(List<String> arguments) {
+  print(camelCase('create new file'));
 }
